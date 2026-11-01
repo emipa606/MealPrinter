@@ -1,0 +1,11 @@
+Sounds/printer.ogg raw
+Textures/Things/Building/Production/MealPrinter/MealPrinter_east.png.dds.split image:Default
+Textures/Things/Building/Production/MealPrinter/MealPrinter_north.png.dds.split image:Default
+Textures/Things/Building/Production/MealPrinter/MealPrinter_south.png.dds.split image:Default
+Textures/Things/Item/Resource/NutriBar/NutriBar_a.png.dds.split image:Default
+Textures/Things/Item/Resource/NutriBar/NutriBar_b.png.dds.split image:Default
+Textures/UI/Buttons/MealFine.png.dds.split image:Default
+Textures/UI/Buttons/MealNutrientPaste.png.dds.split image:Default
+Textures/UI/Buttons/MealSimple.png.dds.split image:Default
+Textures/UI/Buttons/NutriBar.png.dds.split image:Default
+Textures/UI/Buttons/Pemmican.png.dds.split image:Default

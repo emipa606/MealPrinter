@@ -7,7 +7,7 @@ namespace MealPrinter.HarmonyPatches;
 [HarmonyPatch(typeof(FoodUtility), nameof(FoodUtility.GetFinalIngestibleDef))]
 public static class FoodUtility_GetFinalIngestibleDef
 {
-    private static bool Prefix(ref Thing foodSource, ref ThingDef __result)
+    public static bool Prefix(ref Thing foodSource, ref ThingDef __result)
     {
         if (foodSource is not Building_MealPrinter printer || !MealPrinterMod.BestFoodSourceOnMap)
         {

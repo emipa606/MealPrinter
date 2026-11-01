@@ -8,7 +8,7 @@ namespace MealPrinter.HarmonyPatches;
 [HarmonyPatch(typeof(Toils_Ingest), nameof(Toils_Ingest.TakeMealFromDispenser))]
 public static class Toils_Ingest_TakeMealFromDispenser
 {
-    private static bool Prefix(ref TargetIndex ind, ref Pawn eater, ref Toil __result)
+    public static bool Prefix(ref TargetIndex ind, ref Pawn eater, ref Toil __result)
     {
         if (eater.jobs.curJob.GetTarget(ind).Thing is not Building_MealPrinter)
         {

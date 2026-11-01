@@ -1,18 +1,20 @@
 # [Meal Printer (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2896093930)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of SomewhereOutInSpaces mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2552068105
 
-![Image](https://i.imgur.com/pufA0kM.png)
+- Will use the vending machine mechanic in [Hospitality](https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825) if loaded
+
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # Meal Printer - simple, balanced automated meal production for Rimworld's mid-to-late game!
 
 
-[img=https://imgur.com/iFBTYeT.gif]
+[img=https://img.litet.net/iFBTYeT.gif]
 
 Meal Printer adds the titular meal printers. These are the spacer-tech evolution of nutrient paste dispensers, using protein resequencing and primitive molecular printing to convert raw foodstuffs into filling, wholesome meals.
 
@@ -83,7 +85,7 @@ Meal Printer adds the titular meal printers. These are the spacer-tech evolution
 
 As required per [license](https://github.com/sumghai/Replimat/blob/master/LICENSE.md) (CC BY-SA 4.0), Meal Printer uses Harmony and UI code from [Replimat](https://steamcommunity.com/sharedfiles/filedetails/?id=1715402900) by Robin "sumghai" Chang and Dubwise. Your code made my life so much easier - thank you!
 	
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
@@ -97,4 +99,4 @@ As required per [license](https://github.com/sumghai/Replimat/blob/master/LICENS
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MealPrinter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2896093930) | tags:  food production
+[![Image](https://img.shields.io/github/v/release/emipa606/MealPrinter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2896093930) | food production

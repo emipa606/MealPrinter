@@ -4,6 +4,8 @@ using System;
 using UnityEngine;
 using Verse;
 
+namespace MealPrinter;
+
 public class Dialog_PrintBars : Window
 {
     private const float BotAreaHeight = 30f;

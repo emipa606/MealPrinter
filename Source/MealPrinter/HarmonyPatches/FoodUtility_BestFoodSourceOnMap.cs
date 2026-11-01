@@ -7,7 +7,7 @@ namespace MealPrinter.HarmonyPatches;
 [HarmonyPatch(typeof(FoodUtility), nameof(FoodUtility.BestFoodSourceOnMap))]
 public static class FoodUtility_BestFoodSourceOnMap
 {
-    private static void Prefix(ref Pawn getter, ref Pawn eater, ref bool allowDispenserFull,
+    public static void Prefix(ref Pawn getter, ref Pawn eater, ref bool allowDispenserFull,
         ref bool allowForbidden, ref bool allowSociallyImproper)
     {
         if (eater.DevelopmentalStage.Baby())
@@ -23,7 +23,7 @@ public static class FoodUtility_BestFoodSourceOnMap
         MealPrinterMod.AllowSociallyImproper = allowSociallyImproper;
     }
 
-    private static void Postfix()
+    public static void Postfix()
     {
         MealPrinterMod.BestFoodSourceOnMap = false;
     }

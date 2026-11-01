@@ -8,7 +8,7 @@ public static class ThingDef_IsFoodDispenser
 {
     // stop need hoppers alert
 
-    private static bool Prefix(ThingDef __instance, ref bool __result)
+    public static bool Prefix(ThingDef __instance, ref bool __result)
     {
         if (__instance.thingClass != typeof(Building_MealPrinter))
         {

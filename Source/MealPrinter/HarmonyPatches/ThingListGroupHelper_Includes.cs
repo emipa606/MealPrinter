@@ -6,7 +6,7 @@ namespace MealPrinter.HarmonyPatches;
 [HarmonyPatch(typeof(ThingListGroupHelper), nameof(ThingListGroupHelper.Includes))]
 public static class ThingListGroupHelper_Includes
 {
-    private static bool Prefix(ref ThingRequestGroup group, ref ThingDef def, ref bool __result)
+    public static bool Prefix(ref ThingRequestGroup group, ref ThingDef def, ref bool __result)
     {
         if (group != ThingRequestGroup.FoodSource && group != ThingRequestGroup.FoodSourceNotPlantOrTree)
         {

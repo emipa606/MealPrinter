@@ -3,4 +3,26 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="MealPrinter/MealPrinter.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/BuildingDefs/">
+    <File Path="../1.7/Defs/BuildingDefs/Building_MealPrinter.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/MealPrinter.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchDefs/">
+    <File Path="../1.7/Defs/ResearchDefs/MealPrinter_ResearchProjects.xml" />
+    <File Path="../1.7/Defs/ResearchDefs/MealPrinter_ResearchTab.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ItemDefs/">
+    <File Path="../1.7/Defs/ItemDefs/Items_Food.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/PrinterSounds.xml" />
+  </Folder>
 </Solution>

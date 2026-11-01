@@ -7,7 +7,7 @@ namespace MealPrinter.HarmonyPatches;
 [HarmonyPatch(typeof(JobDriver_Ingest), nameof(JobDriver_Ingest.GetReport))]
 public static class JobDriver_Ingest_GetReport
 {
-    private static void Postfix(JobDriver_Ingest __instance, ref string __result)
+    public static void Postfix(JobDriver_Ingest __instance, ref string __result)
     {
         __result = __instance.job.def.reportString.Replace("TargetA",
             __instance.job.GetTarget(TargetIndex.A).Thing is Building_MealPrinter

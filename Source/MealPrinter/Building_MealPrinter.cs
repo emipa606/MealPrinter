@@ -11,7 +11,7 @@ public class Building_MealPrinter : Building_NutrientPasteDispenser
 {
     private const float barNutritionCost = 0.5f;
 
-    public static readonly List<ThingDef> validMeals = [];
+    private static readonly List<ThingDef> validMeals = [];
     private ThingDef mealToPrint;
 
     public override void PostMake()
